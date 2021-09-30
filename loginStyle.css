@@ -1,0 +1,64 @@
+*{
+    background-color: #4A4848; 
+}
+.head{
+/* position: absolute; */
+width: 1012px;
+height: 157px;
+top: 25%;
+left: 50%;
+transform: translate(25%,30%);
+font-size: 30px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #FFC83C;
+}
+.cls{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 50px;
+}
+.emailpass{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: gray;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.row{
+position: absolute;
+ top: 54%;
+left: 50%; 
+transform: translate(-50%,-50%);
+height: 350px;
+width: 260px;
+text-align: center;
+background-color: white;
+border-radius: 20px;
+}
+.row1{
+    background-color: white;
+}
+.row2{
+    color:#FFC83C;
+    background-color: white;
+}
+.txt{
+    background-color: white;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+    margin-left: 45px;
+}
+.btn{
+    margin-top: 20px;
+    background-color: #FFC83C;
+    color: white;
+}
+ 

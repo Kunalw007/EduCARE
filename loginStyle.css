@@ -1,0 +1,130 @@
+*{
+    background-color: #4A4848; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 900;
+    
+    cursor: pointer;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+.head{
+position: absolute;
+width: 1012px;
+height: 157px;
+top: 22%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 30px;
+text-align: center;
+letter-spacing: 0.3px;
+font-family: 'Inter', sans-serif;
+color: #FFC83C;
+}
+.cls{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -20px;
+    background-color: white;
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+.emailpass{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.m-t-20{
+    margin-top: -30px;
+}
+.row{
+position: absolute;
+ top: 54%;
+left: 50%; 
+transform: translate(-50%,-50%);
+height: 400px;
+width: 270px;
+text-align: center;
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 0 5px 5px gray;
+}
+.row1{
+    background-color: white;
+}
+.margin{
+    /* margin-top: -30px; */
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+}
+.row1.margin{   
+    border-radius:0px 0px 20px 20px;
+}
+.row2{
+    color:#FFC83C;
+    background-color: white;
+}
+.txt{
+    background-color: white;
+    text-align: left;
+    font-size: 8px;
+    margin-top: 5px;
+    color: gray;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-bottom: 2px;
+}
+#sample{
+    width: 100px;
+}
+.btn2{
+    margin-top: -20px;
+    background-color: white;
+    color: white;
+}
+.bttn{
+    padding: 3px 70px;
+}
+.form-control1{
+    
+    font-size: 14px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+.form-control1:hover{
+    border: 2px solid black;
+}
+ 

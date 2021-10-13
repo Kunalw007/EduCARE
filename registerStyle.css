@@ -1,0 +1,140 @@
+.clr{
+    background-color: #4A4848; 
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 900;
+    
+    cursor: pointer;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+.signup-form1{
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 370px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 3px gray;
+}
+.head{
+    position: absolute;
+    width: 1012px;
+    height: 157px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #FFC83C;
+    }
+.form-group.center{
+    background-color: white;
+    margin-bottom: 9px;
+    text-align: center;
+}
+.form-control1{
+    
+    font-size: 14px;
+    border: 1.7px solid gray;
+    width: 60%;
+    border-radius: 4px;
+    
+}
+
+.form-control1:hover{
+    border: 1.7px solid black;
+}
+.txt{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.form-group.txt{
+    margin-top: 5px;
+}
+
+.txt1{
+    background-color: white;
+    text-align: left;
+    font-size: 8px;
+    margin-top: 5px;
+    color: gray;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-left: 78px;
+    margin-bottom: 2px;
+}
+.row2{
+    color:#FFC83C;
+    background-color: white;
+}
+.txt3{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.mar{
+    margin-bottom: 8px;
+    text-align: center;
+}
+.file{
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    background-color: white;
+}
+.bttn{
+    padding: 2px 70px;
+    
+}
+.bttn.btn.btn-warning{
+    padding: 5px 60px;
+}
+.row1{
+    background-color: white;
+    text-align: center;
+}
